@@ -1,6 +1,8 @@
 {
   "name": "ascriver/debugview",
-  "version": "1.0.0",
+  "description": "A custom Monolog handler for Windows DebugView.",
+  "type": "library",
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Ascriver\\": "src/"
@@ -9,10 +11,11 @@
   "authors": [
     {
       "name": "AScriver",
-      "email": "ascriver@live.com"
+      "email": "34779562+AScriver@users.noreply.github.com"
     }
   ],
   "require": {
+    "php": ">=8.1",
     "monolog/monolog": "^3.5"
   },
   "require-dev": {
