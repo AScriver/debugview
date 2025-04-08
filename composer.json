@@ -3,17 +3,17 @@
   "description": "A custom Monolog handler for Windows DebugView.",
   "type": "library",
   "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Ascriver\\": "src/"
-    }
-  },
   "authors": [
     {
       "name": "AScriver",
       "email": "34779562+AScriver@users.noreply.github.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "Ascriver\\": "src/"
+    }
+  },
   "require": {
     "php": ">=8.1",
     "monolog/monolog": "^3.5"
