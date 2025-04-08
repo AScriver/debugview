@@ -1,0 +1,27 @@
+{
+  "name": "ascriver/debugview",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Ascriver\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "AScriver",
+      "email": "ascriver@live.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^3.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.4",
+    "roave/security-advisories": "dev-latest"
+  },
+  "config": {
+    "platform-check": true,
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
