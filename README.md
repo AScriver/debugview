@@ -38,6 +38,8 @@ $logger->debug('This is a debug message');
 
 - PHP 8.1 or higher
 - Windows operating system (required for OutputDebugStringA)
+- FFI must be enabled in your PHP configuration (php.ini):
+>⚠️ If FFI is disabled or restricted (e.g., in some shared hosting environments), this handler will not function correctly.
 
 ## Development
 
