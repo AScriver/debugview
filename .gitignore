@@ -3,4 +3,3 @@
 vendor
 .phpunit.result.cache
 php.ini
-phpunit.xml
